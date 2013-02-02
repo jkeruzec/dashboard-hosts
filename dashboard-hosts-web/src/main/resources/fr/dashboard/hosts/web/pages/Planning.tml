@@ -1,0 +1,51 @@
+<html t:type="layout" title="message:planning-title"
+      xmlns:t="http://tapestry.apache.org/schema/tapestry_5_1_0.xsd"
+      xmlns:p="tapestry:parameter">
+	<div>
+		<t:businessExceptionMessage/>
+		<div class="hero-unit">
+			<h1>Planning</h1>
+			<p>${message:planning-msg}</p>
+			
+			<t:block t:id="unknown">
+				<br/>
+				${message:unknown }
+				<br/>
+				<br/>
+			</t:block>
+			
+			<t:block t:id="results">						
+				<span class="label pull-right">
+					<t:pagelink t:page="Planning" t:context="team" style="color:white">
+						<i class="icon-info-sign icon-white"/> ${message:direct-access } 
+					</t:pagelink>
+				</span>
+
+				<br/>
+				<t:if test="lastNotification">
+				${message:last-notification} : <t:output format="literal:dd/MM/yyyy" value="lastNotification"/>
+					<p:else>
+						${message:no-last-notification}
+					</p:else>				
+				</t:if>
+				<hr/>
+				<t:loop source="eaters" index="currentIndex" value="currentEater">
+					<span class="badge">${displayCurrentIndex}</span> ${currentEater.name}<br/><hr/>
+				</t:loop>
+			</t:block>
+			
+			<t:form t:zone="zoneResults">
+				<t:textfield id="team" t:validate="required" value="team" placeholder="${message:connexion-team-name-label}"/><br/>
+				<t:submit class="btn-primary" value="${message:consult-planning}"/>
+			</t:form>
+			
+			<t:zone id="zoneResults" style="background-image: none; background-color: rgb(255, 255, 255);">
+				<t:if test="displayBlock">
+					<t:delegate to="displayBlock"/>
+				</t:if>
+			</t:zone>
+			
+			<t:pagelink t:page="Index" style="font-size:80%; color:gray">${message:back-login}</t:pagelink>
+		</div>
+	</div>
+</html>

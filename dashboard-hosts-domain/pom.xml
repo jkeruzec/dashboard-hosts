@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+	<modelVersion>4.0.0</modelVersion>
+	<parent>
+		<artifactId>dashboard-hosts</artifactId>
+		<groupId>fr.dashboard.hosts</groupId>
+		<version>1.0.0-SNAPSHOT</version>
+	</parent>
+	<artifactId>dashboard-hosts-domain</artifactId>
+	<name>dashboard-hosts-domain</name>
+
+	<dependencies>
+		<dependency>
+			<artifactId>dashboard-hosts-domain-core</artifactId>
+			<groupId>${project.groupId}</groupId>
+			<version>${project.version}</version>
+		</dependency>
+        <dependency>
+          <artifactId>dashboard-hosts-mail</artifactId>
+          <groupId>${project.groupId}</groupId>
+          <version>${project.version}</version>
+        </dependency>
+
+		<!-- Spring Security -->
+		<dependency>
+			<groupId>org.springframework.security</groupId>
+			<artifactId>spring-security-core</artifactId>
+			<version>${spring-security-version}</version>
+		</dependency>
+    
+        <!-- AOP -->
+        <dependency>
+          <groupId>org.springframework</groupId>
+          <artifactId>spring-asm</artifactId>
+          <version>${spring-version}</version>
+        </dependency>
+        
+        <dependency>
+          <groupId>org.springframework</groupId>
+          <artifactId>spring-aop</artifactId>
+          <version>${spring-version}</version>
+        </dependency>
+        
+        <dependency>
+          <groupId>org.springframework</groupId>
+          <artifactId>spring-aspects</artifactId>
+          <version>${spring-version}</version>
+        </dependency>
+        
+        <dependency>
+          <groupId>org.springframework</groupId>
+          <artifactId>spring-expression</artifactId>
+          <version>${spring-version}</version>
+        </dependency>
+        
+        <dependency>
+          <groupId>org.aspectj</groupId>
+          <artifactId>aspectjrt</artifactId>
+          <version>1.6.11</version>
+        </dependency>
+     
+        <dependency>
+          <groupId>org.aspectj</groupId>
+          <artifactId>aspectjweaver</artifactId>
+          <version>1.6.11</version>
+        </dependency>
+
+		<!-- Dependances pour Unitils -->
+		<dependency>
+			<groupId>org.unitils</groupId>
+			<artifactId>unitils-dbunit</artifactId>
+			<version>${unitils-version}</version>
+			<scope>test</scope>
+            <exclusions>
+              <exclusion>
+                <groupId>org.slf4j</groupId>
+                <artifactId>slf4j-nop</artifactId>
+              </exclusion>
+            </exclusions>
+		</dependency>
+		<dependency>
+			<groupId>org.unitils</groupId>
+			<artifactId>unitils-testng</artifactId>
+			<version>${unitils-version}</version>
+			<scope>test</scope>
+		</dependency>
+		<dependency>
+			<groupId>org.unitils</groupId>
+			<artifactId>unitils-orm</artifactId>
+			<version>${unitils-version}</version>
+			<scope>test</scope>
+		</dependency>
+		<dependency>
+			<groupId>org.unitils</groupId>
+			<artifactId>unitils-easymock</artifactId>
+			<version>${unitils-version}</version>
+			<scope>test</scope>
+		</dependency>
+		<dependency>
+			<groupId>org.unitils</groupId>
+			<artifactId>unitils-mock</artifactId>
+			<version>${unitils-version}</version>
+			<type>jar</type>
+			<scope>test</scope>
+		</dependency>
+		<dependency>
+			<groupId>org.unitils</groupId>
+			<artifactId>unitils-spring</artifactId>
+			<version>${unitils-version}</version>
+			<scope>test</scope>
+		</dependency>
+		<dependency>
+			<groupId>org.unitils</groupId>
+			<artifactId>unitils-inject</artifactId>
+			<version>${unitils-version}</version>
+			<scope>test</scope>
+		</dependency>
+		<dependency>
+			<groupId>org.unitils</groupId>
+			<artifactId>unitils-core</artifactId>
+			<version>${unitils-version}</version>
+			<scope>test</scope>
+		</dependency>
+	</dependencies>
+
+</project>

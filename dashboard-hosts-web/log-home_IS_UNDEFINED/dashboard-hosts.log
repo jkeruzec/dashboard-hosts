@@ -1,0 +1,68 @@
+01:40:34.662 [DEBUG]  f.d.h.w.s.D.ApplicationListener - Creating non-proxied instance of service ApplicationListener
+01:40:34.662 [DEBUG]  f.d.h.w.s.D.ApplicationListener - Invoking constructor fr.dashboard.hosts.web.services.ApplicationListener(ApplicationContext, boolean) (at ApplicationListener.java:56) via fr.dashboard.hosts.web.services.DashboardHostsModule.bind(ServiceBinder) (at DashboardHostsModule.java:33) (for service 'ApplicationListener')
+01:40:34.662 [INFO ]    f.d.h.w.s.ApplicationListener - Demarrage de l'application en mode DEVELOPPEMENT.
+01:40:34.662 [INFO ]    f.d.h.w.s.ApplicationListener - >>> Nettoyage USER / ROLE / AUTHORITY...
+01:40:34.694 [INFO ]    f.d.h.w.s.ApplicationListener - <<< Nettoyage : traitement termine
+01:40:34.694 [INFO ]    f.d.h.w.s.ApplicationListener - >>> Users : Chargement du jeu de donnees par defaut...
+01:40:34.881 [INFO ]  f.d.h.d.b.impl.HostsManagerImpl - Creating team Team
+01:40:35.131 [INFO ]  f.d.h.d.b.impl.HostsManagerImpl - Creating team Team2
+01:40:35.131 [INFO ]  f.d.h.d.b.impl.HostsManagerImpl - Creating team admin
+01:40:36.928 [DEBUG] f.d.h.w.s.D.DashboardHostsApplicationScope - Creating non-proxied instance of service DashboardHostsApplicationScope
+01:40:36.928 [DEBUG] f.d.h.w.s.D.DashboardHostsApplicationScope - Invoking constructor fr.dashboard.hosts.web.services.DashboardHostsApplicationScope(ApplicationContext) (at DashboardHostsApplicationScope.java:35) via fr.dashboard.hosts.web.services.DashboardHostsModule.bind(ServiceBinder) (at DashboardHostsModule.java:33) (for service 'DashboardHostsApplicationScope')
+01:42:17.690 [DEBUG]   f.d.h.web.components.JsConsole - Command received: help
+01:42:17.690 [DEBUG]   f.d.h.web.components.JsConsole - Args received: []
+01:42:17.690 [DEBUG]   f.d.h.web.components.JsConsole - Triggering event to container...
+01:42:17.721 [DEBUG]   f.d.h.web.components.JsConsole - Sending result from container...
+02:46:33.279 [DEBUG] f.d.h.w.s.D.ExceptionHandlerService - Creating non-proxied instance of service ExceptionHandlerService
+02:46:33.483 [DEBUG] f.d.h.w.s.D.ExceptionHandlerService - Invoking constructor fr.dashboard.hosts.web.services.exceptionHandler.ExceptionHandlerService() (at ExceptionHandlerService.java:9) via fr.dashboard.hosts.web.services.DashboardHostsModule.bind(ServiceBinder) (at DashboardHostsModule.java:33) (for service 'ExceptionHandlerService')
+02:48:18.767 [DEBUG]  f.d.h.w.s.D.ApplicationListener - Creating non-proxied instance of service ApplicationListener
+02:48:18.783 [DEBUG]  f.d.h.w.s.D.ApplicationListener - Invoking constructor fr.dashboard.hosts.web.services.ApplicationListener(ApplicationContext, boolean) (at ApplicationListener.java:56) via fr.dashboard.hosts.web.services.DashboardHostsModule.bind(ServiceBinder) (at DashboardHostsModule.java:33) (for service 'ApplicationListener')
+02:48:18.783 [INFO ]    f.d.h.w.s.ApplicationListener - Demarrage de l'application en mode DEVELOPPEMENT.
+02:48:18.783 [INFO ]    f.d.h.w.s.ApplicationListener - >>> Nettoyage USER / ROLE / AUTHORITY...
+02:48:18.814 [INFO ]    f.d.h.w.s.ApplicationListener - <<< Nettoyage : traitement termine
+02:48:18.814 [INFO ]    f.d.h.w.s.ApplicationListener - >>> Users : Chargement du jeu de donnees par defaut...
+02:48:19.017 [INFO ]  f.d.h.d.b.impl.HostsManagerImpl - Creating team Team
+02:48:19.251 [INFO ]  f.d.h.d.b.impl.HostsManagerImpl - Creating team Team2
+02:48:19.251 [INFO ]  f.d.h.d.b.impl.HostsManagerImpl - Creating team admin
+02:52:37.736 [DEBUG] f.d.h.w.s.D.DashboardHostsApplicationScope - Creating non-proxied instance of service DashboardHostsApplicationScope
+02:52:37.736 [DEBUG] f.d.h.w.s.D.DashboardHostsApplicationScope - Invoking constructor fr.dashboard.hosts.web.services.DashboardHostsApplicationScope(ApplicationContext) (at DashboardHostsApplicationScope.java:35) via fr.dashboard.hosts.web.services.DashboardHostsModule.bind(ServiceBinder) (at DashboardHostsModule.java:33) (for service 'DashboardHostsApplicationScope')
+03:21:49.428 [DEBUG]  f.d.h.w.s.D.ApplicationListener - Creating non-proxied instance of service ApplicationListener
+03:21:49.459 [DEBUG]  f.d.h.w.s.D.ApplicationListener - Invoking constructor fr.dashboard.hosts.web.services.ApplicationListener(ApplicationContext, boolean) (at ApplicationListener.java:56) via fr.dashboard.hosts.web.services.DashboardHostsModule.bind(ServiceBinder) (at DashboardHostsModule.java:33) (for service 'ApplicationListener')
+03:21:49.459 [INFO ]    f.d.h.w.s.ApplicationListener - Demarrage de l'application en mode DEVELOPPEMENT.
+03:21:49.459 [INFO ]    f.d.h.w.s.ApplicationListener - >>> Nettoyage USER / ROLE / AUTHORITY...
+03:21:49.459 [INFO ]    f.d.h.w.s.ApplicationListener - <<< Nettoyage : traitement termine
+03:21:49.459 [INFO ]    f.d.h.w.s.ApplicationListener - >>> Users : Chargement du jeu de donnees par defaut...
+03:21:49.631 [INFO ]  f.d.h.d.b.impl.HostsManagerImpl - Creating team Team
+03:21:49.866 [INFO ]  f.d.h.d.b.impl.HostsManagerImpl - Creating team Team2
+03:21:49.881 [INFO ]  f.d.h.d.b.impl.HostsManagerImpl - Creating team admin
+03:21:51.444 [DEBUG] f.d.h.w.s.D.DashboardHostsApplicationScope - Creating non-proxied instance of service DashboardHostsApplicationScope
+03:21:51.444 [DEBUG] f.d.h.w.s.D.DashboardHostsApplicationScope - Invoking constructor fr.dashboard.hosts.web.services.DashboardHostsApplicationScope(ApplicationContext) (at DashboardHostsApplicationScope.java:35) via fr.dashboard.hosts.web.services.DashboardHostsModule.bind(ServiceBinder) (at DashboardHostsModule.java:33) (for service 'DashboardHostsApplicationScope')
+03:30:46.188 [DEBUG] f.d.h.d.s.i.UserDetailsServiceImpl - >>> loadUserByUsername username: 
+03:30:46.188 [DEBUG] f.d.h.d.s.i.UserDetailsServiceImpl - <<< User: null
+04:13:19.628 [DEBUG]  f.d.h.w.s.D.ApplicationListener - Creating non-proxied instance of service ApplicationListener
+04:13:19.643 [DEBUG]  f.d.h.w.s.D.ApplicationListener - Invoking constructor fr.dashboard.hosts.web.services.ApplicationListener(ApplicationContext, boolean) (at ApplicationListener.java:56) via fr.dashboard.hosts.web.services.DashboardHostsModule.bind(ServiceBinder) (at DashboardHostsModule.java:33) (for service 'ApplicationListener')
+04:13:19.643 [INFO ]    f.d.h.w.s.ApplicationListener - Demarrage de l'application en mode DEVELOPPEMENT.
+04:13:19.643 [INFO ]    f.d.h.w.s.ApplicationListener - >>> Nettoyage USER / ROLE / AUTHORITY...
+04:13:19.674 [INFO ]    f.d.h.w.s.ApplicationListener - <<< Nettoyage : traitement termine
+04:13:19.674 [INFO ]    f.d.h.w.s.ApplicationListener - >>> Users : Chargement du jeu de donnees par defaut...
+04:13:19.862 [INFO ]  f.d.h.d.b.impl.HostsManagerImpl - Creating team Team
+04:13:20.049 [INFO ]  f.d.h.d.b.impl.HostsManagerImpl - Creating team Team2
+04:13:20.049 [INFO ]  f.d.h.d.b.impl.HostsManagerImpl - Creating team admin
+04:13:33.127 [DEBUG] f.d.h.w.s.D.DashboardHostsApplicationScope - Creating non-proxied instance of service DashboardHostsApplicationScope
+04:13:33.158 [DEBUG] f.d.h.w.s.D.DashboardHostsApplicationScope - Invoking constructor fr.dashboard.hosts.web.services.DashboardHostsApplicationScope(ApplicationContext) (at DashboardHostsApplicationScope.java:35) via fr.dashboard.hosts.web.services.DashboardHostsModule.bind(ServiceBinder) (at DashboardHostsModule.java:33) (for service 'DashboardHostsApplicationScope')
+04:14:43.453 [DEBUG] f.d.h.d.s.i.UserDetailsServiceImpl - >>> loadUserByUsername username: SIMAT
+04:14:43.484 [DEBUG] f.d.h.d.s.i.UserDetailsServiceImpl - <<< User: null
+04:15:07.109 [INFO ]  f.d.h.d.b.impl.HostsManagerImpl - Creating team SIMAT
+21:19:09.905 [DEBUG]  f.d.h.w.s.D.ApplicationListener - Creating non-proxied instance of service ApplicationListener
+21:19:09.905 [DEBUG]  f.d.h.w.s.D.ApplicationListener - Invoking constructor fr.dashboard.hosts.web.services.ApplicationListener(ApplicationContext, boolean) (at ApplicationListener.java:56) via fr.dashboard.hosts.web.services.DashboardHostsModule.bind(ServiceBinder) (at DashboardHostsModule.java:33) (for service 'ApplicationListener')
+21:19:09.905 [INFO ]    f.d.h.w.s.ApplicationListener - Demarrage de l'application en mode DEVELOPPEMENT.
+21:19:09.905 [INFO ]    f.d.h.w.s.ApplicationListener - >>> Nettoyage USER / ROLE / AUTHORITY...
+21:19:09.936 [INFO ]    f.d.h.w.s.ApplicationListener - <<< Nettoyage : traitement termine
+21:19:09.936 [INFO ]    f.d.h.w.s.ApplicationListener - >>> Users : Chargement du jeu de donnees par defaut...
+21:19:10.155 [INFO ]  f.d.h.d.b.impl.HostsManagerImpl - Creating team Team
+21:19:10.389 [INFO ]  f.d.h.d.b.impl.HostsManagerImpl - Creating team Team2
+21:19:10.389 [INFO ]  f.d.h.d.b.impl.HostsManagerImpl - Creating team admin
+21:19:30.228 [DEBUG] f.d.h.w.s.D.DashboardHostsApplicationScope - Creating non-proxied instance of service DashboardHostsApplicationScope
+21:19:30.228 [DEBUG] f.d.h.w.s.D.DashboardHostsApplicationScope - Invoking constructor fr.dashboard.hosts.web.services.DashboardHostsApplicationScope(ApplicationContext) (at DashboardHostsApplicationScope.java:35) via fr.dashboard.hosts.web.services.DashboardHostsModule.bind(ServiceBinder) (at DashboardHostsModule.java:33) (for service 'DashboardHostsApplicationScope')
+21:26:51.103 [DEBUG] f.d.h.d.s.i.UserDetailsServiceImpl - >>> loadUserByUsername username: test
+21:26:51.119 [DEBUG] f.d.h.d.s.i.UserDetailsServiceImpl - <<< User: null

@@ -1,0 +1,5 @@
+02:46:28.529 [ERROR]  o.apache.tapestry5.ioc.Registry - Table "TEAM" not found; SQL statement:
+/* SELECT count(*) FROM fr.dashboard.hosts.domain.model.Team */ select count(*) as col_0_0_ from Team team0_ limit ? [42102-165]; SQL [n/a]; nested exception is org.hibernate.exception.SQLGrammarException: Table "TEAM" not found; SQL statement:
+/* SELECT count(*) FROM fr.dashboard.hosts.domain.model.Team */ select count(*) as col_0_0_ from Team team0_ limit ? [42102-165]
+02:46:28.607 [ERROR]  o.apache.tapestry5.ioc.Registry - Operations trace:
+02:46:28.607 [ERROR]  o.apache.tapestry5.ioc.Registry - [ 1] Triggering event 'activate' on Index

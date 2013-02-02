@@ -1,0 +1,30 @@
+<html t:type="layout" title="message:index-title"
+      xmlns:t="http://tapestry.apache.org/schema/tapestry_5_1_0.xsd"
+      xmlns:p="tapestry:parameter">
+	<div>
+		<t:businessExceptionMessage/>
+		<div class="hero-unit" style="padding-bottom:10px">
+			<h1><img src="${asset:context:layout/img/dh.png}" alt="Dashboard Hosts" /></h1>
+			<br /><br />
+			<t:if test="loginFailed">
+				<div class="alert alert-error">
+					${message:login-failed }
+				</div>
+			</t:if>
+			<form action="${contextRoot}/j_spring_security_check" method="POST">
+				<input type="text" name="j_username" class="placeholder" placeholder="${message:connexion-team-name-label}" /><br/>
+				<input type="password" name="j_password" class="placeholder" placeholder="${message:connexion-password-label}" /><br/><br/>
+				<input type="submit" class="btn btn-primary" value="${message:connexion-button}"/>	<t:pagelink page="Planning" class="btn btn-info" style="margin-left:120px">${message:check-planning}</t:pagelink>
+			</form>
+			
+			<t:pagelink t:page="LostAccess" style="font-size:80%; color:gray">${message:access-lost}</t:pagelink>
+			
+			<br/><br/><br/>
+			<blockquote>
+			<small>
+				${message:count-part1 } ${teamsCount} ${message:count-part2 } ${eatersCount} ${message:count-part3 }
+			</small>
+			</blockquote>
+		</div>
+	</div>
+</html>
